@@ -1,0 +1,29 @@
+{
+  "name": "modern-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "npm@10.9.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickysrepo/modern-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickysrepo/modern-blog/issues"
+  },
+  "homepage": "https://github.com/rickysrepo/modern-blog#readme",
+  "description": "",
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  }
+}
